@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: #c5b209;
+  color: #237723;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 60px;
+}
+
+.hambi {
+  font-size: 1em;
+  position: relative;
+  bottom: -5vh;
+}
+
+i {
+  position: absolult;
+  border: 1px solid white;
+  padding: 20px;
+  color: black;
+}
+
+h1 {
+  color: green;
+  text-align: center;
+  padding: 20px;
+}
+
+form,
+input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: green;
+  padding: 15px;
+  margin-bottom: 20px;
+  width: 50%;
+}
+
+form .check_box,
+input .check_box {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px;
+  margin: 5px;
+}
+
+form .check_box span,
+input .check_box span {
+  width: 100%;
+  margin: 5px;
+}
+
+form .check_box .check,
+input .check_box .check {
+  width: 5%;
+  margin: 5px;
+}
+
+.placeholder {
+  color: green;
+}
+
+.underLine {
+  text-decoration: underline;
+}
+
+button {
+  color: white;
+  background-color: green;
+  width: 40%;
+  padding: 10px 20px;
+  border-radius: 2px;
+  border: 1px solid honeydew;
+}
+
+@media (max-width: 600px) {
+  body {
+    gap: 15px;
+  }
+  form {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  input {
+    padding: 10px;
+    margin: 10px 20px;
+    width: 90%;
+  }
+  .check_box {
+    width: 100%;
+  }
+  span {
+    width: 100%;
+    margin: 0;
+  }
+  .check {
+    margin: 0;
+    width: 100%;
+  }
+  h1 {
+    margin: 80px 20px 5px 20px;
+    text-align: right;
+  }
+}
+/*# sourceMappingURL=style.css.map */
